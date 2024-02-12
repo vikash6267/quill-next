@@ -221,11 +221,17 @@ margin-bottom: 20px;
 
 .third-products .produ{
     position: relative;
+  
     z-index: 1;
 padding: 60px;
 line-height: 25px;
 width: 90%;
 background-color: black;
+
+& .icons img{
+    display: flex;
+    margin: auto;
+}
 
 }
 .third-products .produ h3{
@@ -356,5 +362,110 @@ background-color: black;
 
     /* fifth-part */
 .fifth-part{
-    height: 100vh;
-}    
+    height: 62vh;
+    width: 100vw;
+
+}   
+.fifth{
+    width: 75%;
+    margin: 200px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(48, 47, 47);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+.fifth h3{
+    width: 40%;
+    font-size: 50px
+
+}
+.compony{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    }
+.icons li{
+     cursor: pointer;
+    list-style: none;
+}
+.icons {
+   display: flex;
+   gap: 15px;
+}
+
+
+
+
+
+
+
+
+
+        /* footer */
+footer{
+    width: 100vw;
+    background-color: rgb(58, 66, 66);
+    color: white;
+}       
+.foot-main{
+    width: 75%;
+    margin: 0 auto 0 auto;
+padding-bottom: 60px;
+
+} 
+.footer-first{
+padding-top: 50px;
+    display: flex;
+
+    justify-content: space-between;
+}        
+.icons{
+    display: flex;
+}
+
+
+.footer-first h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+
+}
+.foot-second{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 80%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.foot-second p:nth-child(1){
+    font-size: 50px;
+
+}
+.foot-second .get-in p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.foot-second .get-in .line-ff{
+    width: 10%;
+    height: 1px;
+    background-color: green;
+}
+
+.f-last{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.line-last{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(48, 53, 53);
+
+    margin: 40px 0 20px 0;
+}
+.f-last a{
+    color: white;
+}
